@@ -15,11 +15,32 @@ func main() {
     fmt.Println("GOOO!!!")
 }
 ```
-3. import the appropriate packages.
+3. import the packages.
 
 ```Go
 import ( "fmt"
 "net/http"
 "io/ioutil"
 "encoding/xml")
+```
+4. Implementing
+- Get response from washingtonpost sitemap .xml doc
+- Passing resp.body to bytes variable
+- Adding it to string variable to print to console.
+- Closing the response
+```Go
+func main() {
+    
+    resp, _ := http.Get("https://www.washingtonpost.com/sitemaps/index.xml")
+
+    bytes, _ := ioutil.ReadAll(resp.Body)
+    
+    string_body := string(bytes)
+    fmt.Println(string_body) 
+
+    // closing response
+    resp.Body.Close()
+    
+
+}
 ```
