@@ -90,5 +90,5 @@ func main() {
 }
 ```
 8. Output
-- ![Screen Shot 2019-11-12 at 14 05 21](https://user-images.githubusercontent.com/22626710/68706581-aeb9e980-0555-11ea-89b0-d49e36198054.png)
+![Screen Shot 2019-11-12 at 14 05 21](https://user-images.githubusercontent.com/22626710/68706581-aeb9e980-0555-11ea-89b0-d49e36198054.png)
 
