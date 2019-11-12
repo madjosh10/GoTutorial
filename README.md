@@ -42,7 +42,7 @@ func main() {
     
 }
 ```
-5. Needed Functions
+5. Needed Structs
 - Struct SiteMapIndex
 - Struct Location
 - what []type == slice
