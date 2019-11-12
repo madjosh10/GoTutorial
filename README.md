@@ -40,6 +40,5 @@ func main() {
 
     resp.Body.Close()
     
-
 }
 ```
