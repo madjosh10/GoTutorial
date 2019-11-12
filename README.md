@@ -4,10 +4,12 @@
 
 1. Downloading the Go Compiler and it's libraries.
 [Go Download](https://golang.org/dl/)
-- Compiling With oppropriate OS
+- Compiling with Windows/Mac/Linux OS
 ```Windows
 go run <filename>.go
 ```
+
+
 
 2. Basic Go template
 ```Go
