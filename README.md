@@ -6,7 +6,7 @@
 [Go Download](https://golang.org/dl/)
 
 2. Basic Go template
-```
+```Go
 package main
 
 import ("fmt")
