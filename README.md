@@ -15,4 +15,11 @@ func main() {
     fmt.Println("GOOO!!!")
 }
 ```
+3. import the appropriate packages.
 
+```Go
+import ( "fmt"
+"net/http"
+"io/ioutil"
+"encoding/xml")
+```
