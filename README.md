@@ -42,3 +42,16 @@ func main() {
     
 }
 ```
+5. Needed Functions
+- Struct SiteMapIndex
+- what []type == slice
+- For both slices of Location and Location itself.
+```Go
+type SiteMapIndex struct {
+    Locations []Location `xml:"sitemap"`
+}
+
+type Location struct {
+    Loc string `xml:"loc"`
+}
+```
