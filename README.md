@@ -4,6 +4,10 @@
 
 1. Downloading the Go Compiler and it's libraries.
 [Go Download](https://golang.org/dl/)
+- Compiling With oppropriate OS
+```Windows
+go run <filename>.go
+```
 
 2. Basic Go template
 ```Go
@@ -83,4 +87,5 @@ func main() {
     
 }
 ```
+
 
