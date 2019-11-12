@@ -38,7 +38,6 @@ func main() {
     string_body := string(bytes)
     fmt.Println(string_body) 
 
-    // closing response
     resp.Body.Close()
     
 
