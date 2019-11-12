@@ -31,7 +31,7 @@ import ( "fmt"
 ```
 4. Implementing
 - Get response from washingtonpost sitemap .xml doc
-- Passing resp.body to bytes variable
+- Passing resp.Body to bytes variable
 - Adding it to string variable to print to console.
 - Closing the response
 ```Go
