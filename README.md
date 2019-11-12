@@ -44,6 +44,7 @@ func main() {
 ```
 5. Needed Functions
 - Struct SiteMapIndex
+- Struct Location
 - what []type == slice
 - For both slices of Location and Location itself.
 ```Go
