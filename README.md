@@ -71,7 +71,7 @@ func (l Location) String() string {
 }
 ```
 7. Last touch ups
-- Declaring the s varibale that is of type SiteMapIndex
+- Declaring an s varibale that is of type SiteMapIndex
 - Using xml import to Unmarshal the bytes and s. 
 - &s is saying point at the address of s.
 - printing the s.Locations to the console
